@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Register
+	</title>
+</head>
+
+
+<body>
+	<label>Register with brandonBook!</label>
+	<form action="register.php" method="POST">
+		<p>
+			<label>Username:</label>
+			<input type="text" placeholder="Username" name="username">
+		</p>
+		<p>
+			<label>Name:</label>
+			<input type="text" placeholder="First and Last name" name="name">
+		</p>
+		<p>
+			<label>Email:</label>
+			<input type="text" placeholder="Email" name="email">
+		</p>
+		<p>
+			<label>Password:</label>
+			<input type="password" placeholder="Password" name="password">
+		</p>
+		<p>
+			<label>Verify password:</label>
+			<input type="password" placeholder="Verify Password" name="password_verify">
+		</p>
+		<p>
+			<label>Date of Birth:</label>
+			<input type="date" placeholder="Date of Birth" name="dob">
+		</p>
+		<p>
+			<label>Gender:</label><br />
+			<input type="radio" name="gender" value="male" > Male<br>
+			<input type="radio" name="gender" value="female"> Female<br>
+			<input type="radio" name="gender" value="other"> Non-specified
+		</p>
+		<p>
+			<label>Verification question:</label>
+			<input type="text" placeholder="Where were you born?" name="verification_answer">
+		</p>
+		<p>
+			<label>Location:</label>
+			<input type="text" placeholder="Location" name="location">
+		</p>
+		<p>
+			<label>Profile Picture:</label>
+			<input type="text" placeholder="Profile picture url" name="profile_pic">
+		</p>
+		<input type="submit">
+	</form>
+</body>
+</html>
